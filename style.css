@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.sidebar {
+    width: 25%;
+    background: #e6ebf5;
+    padding: 20px;
+}
+
+.sidebar .profile-pic {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.sidebar h3 {
+    margin: 20px 0 10px;
+    font-size: 1rem;
+    color: #333;
+    border-bottom: 1px solid #aaa;
+}
+
+.sidebar p, .sidebar a {
+    font-size: 0.9rem;
+    margin: 5px 0;
+    color: #333;
+    text-decoration: none;
+}
+
+.sidebar ul {
+    list-style: none;
+    columns: 2;
+    font-size: 0.9rem;
+}
+
+.content {
+    width: 75%;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #2d3e50;
+}
+
+header h2 {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 5px;
+    border-bottom: 2px solid #2d3e50;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.content section {
+    margin-top: 20px;
+}
+
+.content section h3 {
+    font-size: 1.1rem;
+    color: #2d3e50;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #999;
+    display: inline-block;
+    padding-bottom: 2px;
+}
+
+.job {
+    margin-bottom: 15px;
+}
+
+.job p {
+    margin: 5px 0;
+}
